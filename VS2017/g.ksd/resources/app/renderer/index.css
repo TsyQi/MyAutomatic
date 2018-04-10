@@ -1,0 +1,460 @@
+/* Keep fonts at the top so they are loaded first */
+@font-face {
+    font-family: 'Segoe UI SemiBold';
+    src: url('fonts/seguisb.ttf');
+}
+@font-face {
+    font-family: 'Segoe UI SemiLight';
+    src: url('fonts/segoeuisl.ttf');
+}
+@font-face {
+    font-family: 'Segoe UI Symbol';
+    src: url('fonts/seguisym.ttf');
+}
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('fonts/SEGOEUI.TTF');
+}
+.keyboarding :focus {
+    outline-style: solid;
+}
+:focus {
+    outline-width: 1px;
+    outline-style: none;
+}
+#detail {
+    display: flex;
+    flex: 1 0 0px;
+}
+#detail-col-2 {
+    -webkit-app-region: no-drag;
+    display: flex;
+    flex: 1 0 0px;
+    justify-content: space-around;
+    overflow-y: hidden;
+    padding: 0px 0px 4px 15px;
+    word-wrap: break-word;
+}
+.app-title {
+    font-family: 'Segoe UI SemiLight';
+    font-size: 24pt;
+}
+.checkbox-label {
+    font-size: 9pt;
+}
+.circle-clip {
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+.clickable {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
+.component-checkbox {
+    font-size: 1rem;
+}
+.delete-channel-glyph {
+    font-family: "Segoe UI Symbol";
+}
+.individual-components-page {
+    font-size: .75rem;
+}
+.information-pane-header {
+    font-size: 1.33rem;
+    font-family: 'Segoe UI Semilight';
+}
+.information-pane-section-content {
+    font-size: .75rem;
+}
+.install-location {
+    font-size: .75rem;
+}
+.install-options-button {
+    font-family: "Segoe UI Symbol";
+}
+.item {
+    display: flex;
+    height: 29px;
+    margin: 2px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.keyboarding .focused-checkbox-outline {
+    outline-style: solid;
+    outline-width: 1px;
+}
+.language-packs-page {
+    font-size: .75rem;
+}
+.lightbox-manager-quit {
+    border: none;
+}
+.loading-ring {
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+.loading-ring .loading-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    opacity: 0;
+    transform: rotate(225deg);
+    animation: progress-ring-animation 5s infinite;
+}
+.loading-ring .loading-circle:after {
+    content: "\2022";
+    position: absolute;
+    font-size: 10px;
+}
+.loading-ring .loading-circle:nth-child(2) {
+    animation-delay: .3s;
+}
+.loading-ring .loading-circle:nth-child(3) {
+    animation-delay: .6s;
+}
+.loading-ring .loading-circle:nth-child(4) {
+    animation-delay: .9s;
+}
+.loading-ring .loading-circle:nth-child(5) {
+    animation-delay: 1.2s;
+}
+.list {
+    width: 100%;
+}
+.locale-checkbox {
+    font-size: 1rem;
+}
+.product-install-summary-list {
+    -webkit-margin-before: .375rem;
+}
+.product-install-summary-item {
+    outline-style: none !important;
+}
+.keyboarding .product-install-summary-item:focus .product-install-summary-item-title {
+    outline-style: solid;
+    outline-width: 1px;
+}
+.product-install-summary-header {
+    font-size: 1.167rem;
+}
+.product-install-summary-item-title {
+    font-family: "Segoe UI SemiBold";
+    font-size: 0.833rem;
+}
+.product-install-summary-item-glyph {
+    font-family: "Segoe UI Symbol";
+    font-size: .75rem;
+    font-weight: bold;
+}
+.product-install-summary-option-description {
+    font-size: .75rem;
+}
+.progress-bar .progress-circle {
+    animation: progress-bar-animation 3s infinite;
+    opacity: 0;
+}
+.progress-bar .progress-circle::after {
+    content: "\2022";
+    height: 20px;
+    position: absolute;
+    width: 180px;
+}
+.progress-bar .progress-circle:nth-child(2) {
+    animation-delay: .2s;
+}
+.progress-bar .progress-circle:nth-child(3) {
+    animation-delay: .4s;
+}
+.progress-bar .progress-circle:nth-child(4) {
+    animation-delay: .6s;
+}
+.progress-bar .progress-circle:nth-child(5) {
+    animation-delay: .8s;
+}
+.progress-view-speed-text{
+     padding-left: 0.8em;
+}
+.progress-ring {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.progress-ring .progress-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    transform: rotate(225deg);
+    animation: progress-ring-animation 5s infinite;
+}
+.progress-ring .progress-circle:after {
+    content: "\2022";
+    position: absolute;
+    font-size: 10px;
+}
+.progress-ring .progress-circle:nth-child(2) {
+    animation-delay: .3s;
+}
+.progress-ring .progress-circle:nth-child(3) {
+    animation-delay: .6s;
+}
+.progress-ring .progress-circle:nth-child(4) {
+    animation-delay: .9s;
+}
+.progress-ring .progress-circle:nth-child(5) {
+    animation-delay: 1.2s;
+}
+.segoe-semilight {
+    font-family: 'Segoe UI SemiLight';
+}
+.selectable-text {
+    -webkit-app-region: no-drag;
+    -webkit-user-select: initial;
+    user-select: initial;
+    cursor: text;
+}
+.show {
+    display: block !important;
+}
+.sub-title {
+    font-size: .667rem;
+}
+.two-line {
+    height: 40px;
+}
+.workload-description {
+    font-size: 9pt;
+}
+.workload-title {
+    font-size: 9pt;
+    font-family: "Segoe UI SemiBold";
+}
+.workload-unavailable {
+    font-family: "Segoe UI SemiBold";
+}
+@keyframes progress-bar-animation {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translate(0px, 0px);
+    }
+    30% {
+        animation-timing-function: linear;
+        opacity: 1;
+        transform: translate(60px, 0px);
+    }
+    70% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translate(120px, 0px);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(180px, 0px);
+    }
+}
+@keyframes progress-ring-animation {
+
+    0% {
+        transform: rotate(225deg);
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    7% {
+        transform: rotate(345deg);
+        animation-timing-function: linear;
+    }
+    30% {
+        transform: rotate(455deg);
+        animation-timing-function: ease-in-out;
+    }
+    39% {
+        transform: rotate(690deg);
+        animation-timing-function: linear;
+    }
+    70% {
+        transform: rotate(815deg);
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    75% {
+        transform: rotate(945deg);
+        animation-timing-function: ease-out;
+    }
+    76% {
+        transform: rotate(945deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(945deg);
+        opacity: 0;
+    }
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+a:active {
+    text-decoration: underline;
+}
+a:focus,
+.keyboarding a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    user-select: initial;
+    cursor: default;
+    font-family: 'Segoe UI';
+    height: 100%;
+    margin: 0px; /* margin on html and body controls resizeable area */
+    overflow: hidden;
+    padding: 0px;
+}
+button {
+    -webkit-app-region: no-drag;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+    font-size: 10pt;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+button:disabled {
+    cursor: default;
+}
+button:focus,
+.keyboarding button:focus {
+    outline: none;
+}
+html {
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-size: 13pt;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+input {
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    font-size: inherit;
+    padding: 2px 2px 2px 6px;
+}
+input:focus,
+.keyboarding input:focus {
+    outline: none;
+}
+input[type=checkbox]:disabled {
+    cursor: default !important;
+}
+input[type=checkbox].product-button-layout-checkbox {
+    cursor: pointer;
+    height: 13px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 13px;
+    -webkit-appearance: none;
+}
+input[type=checkbox].product-button-layout-checkbox::after {
+    content: '\E10B'; /* checkmark */
+    display: none;
+    font-family: 'Segoe UI Symbol';
+    font-size: 7pt;
+    font-weight: bold;
+    margin-left: -0.292rem;
+}
+input[type=checkbox].options-checkbox {
+    cursor: pointer;
+    position: relative;
+    height: 13px;
+    width: 13px;
+    -webkit-appearance: none;
+}
+input[type=checkbox].options-checkbox::after {
+    content: '\E10B'; /* checkmark */
+    display: none;
+    font-family: 'Segoe UI Symbol';
+    font-size: 7pt;
+    font-weight: bold;
+    margin-left: -0.292rem;
+}
+input[type=checkbox]::after {
+    content: '\E10B'; /* checkmark */
+    display: none;
+    font-family: 'Segoe UI Symbol';
+    font-size: 9pt;
+    font-weight: bold;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+input[type=checkbox]:checked::after {
+    display: block;
+}
+input[type=checkbox]:disabled + div {
+    cursor: default !important;
+}
+keygen {
+    font-family: 'Segoe UI';
+}
+progress {
+    -webkit-appearance: none;
+}
+progress::-webkit-progress-bar {
+    border-width: 1px;
+    border-style: solid;
+}
+select {
+    font-family: 'Segoe UI';
+}
+select:focus,
+.keyboarding select:focus {
+    outline: none;
+}
+textarea {
+    -webkit-app-region: no-drag;
+    font-family: 'Segoe UI';
+}
+uninstall-root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    border-style: solid;
+    border-width: 1px;
+    height: 17px;
+    width: 17px;
+}
+/* Don't show the down and right scroll buttons */
+::-webkit-scrollbar-button:end:increment {
+    display: none;
+}
+/* Don't show the up and left scroll buttons */
+::-webkit-scrollbar-button:start:decrement {
+    display: none;
+}
+::-webkit-scrollbar-thumb {
+    border-style: solid;
+    border-width: 4px;
+}

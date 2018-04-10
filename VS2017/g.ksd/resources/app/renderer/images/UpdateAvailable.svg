@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <style>.icon-canvas-transparent{opacity:0;fill:#f6f6f6}.icon-vs-out{fill:#f6f6f6}.icon-vs-bg{fill:#424242}.brand-vside{fill:#865fc5}</style>
+  <path class="icon-canvas-transparent" d="M16 16H0V0h16v16z" id="canvas"/>
+  <path class="icon-vs-out" d="M13 7.171v7.658L10.248 16h-.613L6.69 13.088l-1.697 1.278L3 13.699V8.3l1.993-.666.007.005v-.613l-.131.132-2.652-2.652L6.724 0h.553l4.507 4.506-1.506 1.506L13 7.171z" id="outline"/>
+  <g id="iconBg">
+    <path class="icon-vs-bg" d="M10.369 4.506L9.131 5.744 8 4.613V8H6V4.612L4.869 5.744 3.631 4.506 7 1.138l3.369 3.368z"/>
+    <path class="brand-vside" d="M10.044 7l-3.266 3.232-1.967-1.483-.81.271v3.959l.81.271 1.967-1.483L10.044 15 12 14.168V7.832L10.044 7zM5 12v-2l1.001 1L5 12zm5.044.694L7.797 11l2.247-1.694v3.388z"/>
+  </g>
+</svg>

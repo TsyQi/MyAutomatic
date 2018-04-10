@@ -1,0 +1,8 @@
+{
+    "$schema": "../../../schemas/servicehub.host.schema.json",
+    "hostExecutable": "./vs_installerservice.x86.exe",
+    "hostArgs": [
+        "$HOSTID",
+        "$PIPE"
+    ]
+}

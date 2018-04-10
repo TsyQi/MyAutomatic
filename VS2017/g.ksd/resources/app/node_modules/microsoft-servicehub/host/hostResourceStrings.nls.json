@@ -1,0 +1,16 @@
+{
+	"messages": [
+		"usage: {0}"
+	],
+	"keys": [
+		{
+			"key": "Usage",
+			"comment": [
+				"Help message for usage of a console command",
+				"{0}: explanation of usage",
+				"E.g. usage: node HubHost.js <HostId>",
+				"Everything after colon in above example is explaining how to use a console command"
+			]
+		}
+	]
+}

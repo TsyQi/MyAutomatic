@@ -1,0 +1,13 @@
+{
+    "controller" : {
+        "executable" : "../../vs_installershell.exe",
+        "args" : ["./node_modules/microsoft-servicehub/host/HubController.js", "$PIPE"],
+        "additionalEnvironmentVariables" : { "ELECTRON_RUN_AS_NODE": "true" }
+    },
+    "services" : {
+        "rootDir" : "./ServiceHub/Services"
+    },
+    "hosts": {
+        "rootDir" : "./ServiceHub/Hosts"
+    }
+}

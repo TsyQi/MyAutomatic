@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="2.0" Name="Microsoft.VisualStudio.Setup.Service" PsrId="211" xmlns="http://schemas.microsoft.com/locstudio/2004/6/lcx">
+  <OwnedComments>
+    <Cmt Name="RCCX" />
+  </OwnedComments>
+  <Item ItemId=";Microsoft.VisualStudio.Setup.ServiceResources.resources" ItemType="0" PsrId="211" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="211" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";InstallationWithoutProduct_1Arg" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The installation '{0}' does not have a corresponding product.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="RCCX"><![CDATA[{0} = The ID of the installation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";OperationInProgress" ItemType="0" PsrId="211" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cannot start a new operation while another operation is still in progress.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";ProductNotFoundAtPath_1Arg" ItemType="0" PsrId="211" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There is no installation at the following path: '{0}'.]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="RCCX"><![CDATA[{0} = A file path]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

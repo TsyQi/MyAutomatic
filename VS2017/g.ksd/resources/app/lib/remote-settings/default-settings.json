@@ -1,0 +1,15 @@
+{
+    "__comment": "The default values that are returned by Remote Settings if a Remote Setting doesn't exist.",
+    "Installer": {
+        "Features": {
+            "__comment": "True enables feature, False turns feature off",
+            "Surveys" : false,
+            "RecommendSel" : false,
+            "ShowBitrate" : false,
+            "RecWklds": false,
+            "SortWklds": false,
+            "CloudFirstDesc": false,
+            "CloudNativeDesc": false
+        }
+    }
+}

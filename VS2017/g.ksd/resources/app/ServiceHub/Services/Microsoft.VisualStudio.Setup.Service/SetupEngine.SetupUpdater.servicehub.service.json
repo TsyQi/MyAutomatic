@@ -1,0 +1,7 @@
+{
+    "host": "desktopClr",
+    "entryPoint": {
+        "assemblyPath": "Microsoft.VisualStudio.Setup.Service.dll",
+        "fullClassname": "Microsoft.VisualStudio.Setup.SetupUpdaterService"
+    }
+}

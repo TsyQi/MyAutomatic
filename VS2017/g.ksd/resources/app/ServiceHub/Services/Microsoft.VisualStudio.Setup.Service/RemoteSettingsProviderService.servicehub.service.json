@@ -1,0 +1,7 @@
+{
+  "host": "desktopClr",
+  "entryPoint": {
+    "assemblyPath": "Microsoft.VisualStudio.RemoteSettingsProviderService.dll",
+    "fullClassname": "Microsoft.VisualStudio.RemoteSettingsProviderService.RemoteSettingsProviderService"
+  }
+}

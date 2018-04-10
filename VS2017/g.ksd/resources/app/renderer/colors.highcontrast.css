@@ -1,0 +1,564 @@
+/* This CSS applies whenever high contrast theme is selected from the OS. This is a completely tokenized CSS file.
+ * You cannot use custom colors in this file. You can only use system colors in this file.
+ * Reference: https://msdn.microsoft.com/en-us/library/windows/desktop/ms724371(v=vs.85).aspx
+ * Also you need to format the system colors in the below way:
+ * For example: If the system color is COLOR_ACTIVECAPTION then it needs to be formatted as var(--color-activecaption)
+ * i.e remove the COLOR_ prefix, add --color- prefix, convert to lower case and encapsulate in var();
+ */
+
+:focus {
+    outline-color: var(--color-windowtext); /* WindowText */
+}
+.app-logo-text {
+    color: var(--color-windowtext); /* WindowText */
+}
+.channels-rule {
+    border-color: transparent;
+}
+.checkbox-label {
+    color: var(--color-windowtext); /* WindowText */
+}.close-button {
+    background-color: var(--color-window); /* Window */
+    border-color: var(--color-btntext); /* ControlText */
+    color: var(--color-btntext); /* ControlText */
+    fill: var(--color-captiontext); /* CaptionText */
+}
+.close-dialog-glyph-button {
+    background-color: var(--color-window); /* Window */
+    border-color: var(--color-window); /* Window */
+    fill: var(--color-btntext); /* ControlText */
+}
+.close-dialog-glyph-button:active {
+    background-color: var(--color-highlight) !important; /* Highlight */
+    border-color: var(--color-highlight) !important; /* Highlight */
+    fill: var(--color-highlighttext) !important; /* HighlightText */
+    transform: scale(0.9);
+}
+.close-dialog-glyph-button:focus {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    fill: var(--color-highlighttext); /* HighlightText */
+}
+.close-dialog-glyph-button:hover {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    fill: var(--color-highlighttext); /* HighlightText */
+}
+.colored-launch-button {
+    background-color: var(--color-inactivecaption); /* InactiveCaption */
+    border-color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+    color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+.colored-launch-button:active {
+    background-color: var(--color-highlight) !important; /* Highlight */
+    border-color: var(--color-highlight) !important; /* Highlight */
+    color: var(--color-highlighttext) !important; /* HighlightText */
+}
+.colored-launch-button:focus {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-highlighttext); /* HighlightText */
+}
+.colored-launch-button:hover {
+    background-color: var(--color-inactivecaption); /* InactiveCaption */
+    border-color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+    color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+.delete-channel-glyph-button {
+    background-color: var(--color-inactivecaption); /* InactiveCaption */
+    border-color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+    fill: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+.delete-channel-glyph-button:active {
+    background-color: var(--color-highlight) !important; /* Highlight */
+    border-color: var(--color-highlight) !important; /* Highlight */
+    fill: var(--color-highlighttext) !important; /* HighlightText */
+    transform: scale(0.9);
+}
+.delete-channel-glyph-button:focus {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    fill: var(--color-highlighttext); /* HighlightText */
+}
+.delete-channel-glyph-button:hover {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    fill: var(--color-highlighttext); /* HighlightText */
+}
+.details-page-tab-container {
+    border-top-color: var(--color-windowtext); /* WindowText */
+}
+.dialog-subtitle {
+    color: var(--color-captiontext); /* ActiveCaptionText */
+}
+.dialog-title {
+    background-color: var(--color-activecaption); /* ActiveCaption */
+    border-color: var(--color-activecaption); /* ActiveCaption */
+    color: var(--color-captiontext); /* ActiveCaptionText */
+}
+.disabled-text {
+    color: var(--color-graytext); /* GrayText */
+}
+.dismiss-launch-banner-button {
+    background-color: var(--color-inactivecaption); /* InactiveCaption */
+    border-color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+    fill: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+.dismiss-launch-banner-button:active {
+    background-color: var(--color-highlight) !important; /* Highlight */
+    border-color: var(--color-highlight) !important; /* Highlight */
+    fill: var(--color-highlighttext) !important; /* HighlightText */
+    transform: scale(0.9);
+}
+.dismiss-launch-banner-button:focus {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    fill: var(--color-highlighttext); /* HighlightText */
+}
+.dismiss-launch-banner-button:hover {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-highlighttext); /* HighlightText */
+}
+.dropdown-content button {
+    background-color: var(--color-inactivecaption); /* InactiveCaption */
+    border-color: var(--color-inactivecaption); /* InactiveCaption */
+    color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+.dropdown-content button:active {
+    background-color: var(--color-highlight) !important; /* Highlight */
+    border-color: var(--color-highlight) !important; /* Highlight */
+    color: var(--color-highlighttext) !important; /* HighlightText */
+}
+.dropdown-content button:focus {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-highlighttext); /* HighlightText */
+}
+.dropdown-content button:hover {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-highlighttext); /* HighlightText */
+}
+.error-dialog-frame {
+    background-color: var(--color-window); /* Window */
+    border-color: var(--color-windowframe); /* WindowFrame */
+    color: var(--color-windowtext); /* WindowText */
+}
+.error-dialog-title {
+    color: var(--color-windowtext); /* WindowText */
+}
+.error-text {
+    color: var(--color-windowtext); /* WindowText */
+}
+.failed-packages-list {
+    background-color: var(--color-window); /* Window */
+    border: var(--color-windowframe); /* WindowFrame */
+}
+.icon-canvas-transparent {
+    fill: var(--color-activecaption); /* ActiveCaption */
+    opacity: 0;
+}
+.individual-components-page .list-title {
+    color: var(--color-windowtext); /* WindowText */
+}
+.information-pane {
+    background-color: var(--color-window); /* Window */
+}
+.install-location {
+    background-color: var(--color-window); /* Window */
+    border-color: var(--color-windowframe); /* WindowFrame */
+    color: var(--color-windowtext); /* WindowText */
+}
+.install-options-button {
+    background-color: var(--color-inactivecaption); /* InactiveCaption */
+    border-color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+    color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+    fill: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+.install-options-button:focus {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-highlighttext); /* HighlightText */
+    fill: var(--color-highlighttext); /* HighlightText */
+}
+.install-options-button:hover {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-highlighttext); /* HighlightText */
+    fill: var(--color-highlighttext); /* HighlightText */
+}
+.focused-ui-item{
+    color: var(--color-highlighttext); /* HighlightText */
+}
+.focused-ui-item-border {
+    border-color: var(--color-windowframe); /* WindowFrame */
+}
+.keyboarding .focused-checkbox-outline {
+    outline-color: var(--color-windowtext); /* WindowText */
+}
+.keyboarding .product-install-summary-item:focus .product-install-summary-item-title {
+    outline-color: var(--color-windowtext); /* WindowText */
+}
+.launch-banner {
+    background-image: none;
+}
+.home-page-tab-container {
+    border-top-color: var(--color-windowtext); /* WindowText */
+}
+.language-pack-label {
+    color: var(--color-btntext); /* ControlText */
+}
+.language-packs-page .list-title {
+    color: var(--color-windowtext); /* WindowText */
+}
+.lightbox {
+    background-color: var(--color-desktop); /* Desktop */
+    border-color: var(--color-desktop); /* Desktop */
+}
+.lightbox-content {
+    background-color: var(--color-window); /* Window */
+    border-color: var(--color-windowframe); /* WindowFrame */
+    color: var(--color-windowtext); /* WindowText */
+}
+.lightbox-manager-quit {
+    background-color: var(--color-activecaption); /* ActiveCaption */
+    border-color: var(--color-captiontext); /* ActiveCaptionText */
+    color: var(--color-captiontext); /* ActiveCaptionText */
+    fill: var(--color-captiontext); /* ActiveCaptionText */
+}
+.lightbox-manager-quit:active {
+    background-color: var(--color-inactivecaption) !important; /* InactiveCaption */
+    border-color: var(--color-inactivecaption) !important; /* InactiveCaption */
+    color: var(--color-inactivecaptiontext) !important; /* InactiveCaptionText */
+    fill: var(--color-inactivecaptiontext) !important; /* InactiveCaptionText */
+}
+.lightbox-manager-quit:focus {
+    background-color: var(--color-inactivecaption); /* InactiveCaption */
+    border-color: var(--color-inactivecaption); /* InactiveCaption */
+    color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+    fill: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+.lightbox-manager-quit:hover {
+    background-color: var(--color-inactivecaption); /* InactiveCaption */
+    border-color: var(--color-inactivecaption); /* InactiveCaption */
+    color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+    fill: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+.menu-open {
+    background-color: var(--color-inactivecaption) !important; /* InactiveCaption */
+    border-color: var(--color-inactivecaption) !important; /* InactiveCaption */
+    color: var(--color-inactivecaptiontext) !important; /* InactiveCaptionText */
+}
+.non-client-button {
+    background-color: var(--color-activecaption); /* ActiveCaption */
+    border-color: var(--color-captiontext); /* ActiveCaptionText */
+    color: var(--color-captiontext); /* ActiveCaptionText */
+    fill: var(--color-captiontext); /* ActiveCaptionText */
+}
+.non-client-button:active {
+    background-color: var(--color-inactivecaption) !important; /* InactiveCaption */
+    border-color: var(--color-inactivecaption) !important; /* InactiveCaption */
+    color: var(--color-inactivecaptiontext) !important; /* InactiveCaptionText */
+    fill: var(--color-inactivecaptiontext) !important; /* InactiveCaptionText */
+}
+.non-client-button:focus {
+    background-color: var(--color-inactivecaption); /* InactiveCaption */
+    border-color: var(--color-inactivecaption); /* InactiveCaption */
+    color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+    fill: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+.non-client-button:hover {
+    background-color: var(--color-inactivecaption); /* InactiveCaption */
+    border-color: var(--color-inactivecaption); /* InactiveCaption */
+    color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+    fill: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+.non-client-button-disabled {
+    background-color: var(--color-activecaption) !important; /* ActiveCaption */
+    border-color: var(--color-captiontext) !important; /* ActiveCaptionText */
+    color: var(--color-captiontext) !important; /* ActiveCaptionText */
+    fill: var(--color-captiontext) !important; /* ActiveCaptionText */
+}
+.problems-dialog {
+    background-color: transparent;
+}
+.problems-dialog-content {
+    background-color: var(--color-window); /* Window */
+    border-color: var(--color-windowframe); /* WindowFrame */
+    color: var(--color-windowtext); /* WindowText */
+}
+.product-install-summary-header {
+    color: var(--color-windowtext); /* WindowText */
+}
+.product-install-summary-item-glyph {
+    color: var(--color-btntext); /* ControlText */
+}
+.product-install-summary-item-title {
+    color: var(--color-btntext); /* ControlText */
+}
+.products-page-channels-list .list-title {
+    color: var(--color-btntext); /* ControlText */
+}
+.progress-bar-blue .progress-circle::after {
+    color: var(--color-windowtext); /* WindowText */
+}
+.progress-view-text {
+    color: var(--color-windowtext); /* WindowText */
+}
+.progress-bar-blue .loading-circle::after {
+    color: var(--color-windowtext); /* WindowText */
+}
+.start-now-header {
+    color: var(--color-windowtext);
+}
+.summary-footer {
+    border-color: var(--color-windowframe); /* WindowFrame */
+}
+.survey-prompt-window-frame {
+    background-color: var(--color-window); /* Window */
+    border-color: var(--color-windowframe); /* WindowFrame */
+    color: var(--color-windowtext); /* WindowText */
+}
+.tab-control-link {
+    color: var(--color-btntext); /* ControlText */
+}
+.tab-control-link-selected {
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-highlight); /* Highlight */
+}
+.tab-control-link:focus {
+    color: var(--color-highlight); /* Highlight */
+}
+.tab-control-link:hover {
+    color: var(--color-highlight); /* Highlight */
+}
+.title-bar {
+    background-color: var(--color-activecaption); /* ActiveCaption */
+    border-color: var(--color-activecaption); /* ActiveCaption */
+    color: var(--color-captiontext); /* ActiveCaptionText */
+}
+.workload-header {
+    color: var(--color-windowtext); /* WindowText */
+}
+a {
+    color: var(--color-hotlight); /* HotTrack */
+}
+a:active {
+    color: var(--color-hotlight); /* HotTrack */
+}
+a:focus {
+    color: var(--color-hotlight); /* HotTrack */
+}
+a:hover {
+    color: var(--color-hotlight); /* HotTrack */
+}
+body {
+    background-color: var(--color-window); /* Window */
+    border-color: var(--color-windowframe); /* WindowFrame */
+    color: var(--color-windowtext); /* WindowText */
+}
+button {
+    background-color: var(--color-inactivecaption); /* InactiveCaption */
+    border-color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+    color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+button:active {
+    background-color: var(--color-highlight) !important; /* Highlight */
+    border-color: var(--color-highlight) !important; /* Highlight */
+    color: var(--color-highlighttext) !important; /* HighlightText */
+}
+button:disabled {
+    background-color: var(--color-btnface) !important; /* InactiveCaption */
+    border-color: var(--color-graytext) !important; /* GrayText */
+    color: var(--color-graytext) !important; /* GrayText */
+}
+button:focus {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-highlighttext); /* HighlightText */
+}
+button:hover {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-highlighttext); /* HighlightText */
+}
+button.default-selected-button {
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-inactivecaptiontext); /* InactiveCaptionText */
+}
+html {
+    border-color: var(--color-windowframe); /* WindowFrame */
+}
+input {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-3dshadow); /* ControlDarkDark */
+    color: var(--color-btntext); /* ControlText */
+}
+input:active {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-highlighttext); /* HighlightText */
+}
+input:focus {
+    background-color: var(--color-highlight); /* Highlight */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-highlighttext); /* HighlightText */
+}
+input:read-only {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-graytext); /* GrayText */
+    color: var(--color-graytext); /* GrayText */
+}
+input[type=checkbox] {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-3dshadow); /* ControlDarkDark */
+    color: var(--color-btntext); /* ControlText */
+}
+input[type=checkbox]:checked {
+    background-color: var(--color-3dface) !important; /* Control */
+    border-color: var(--color-3dshadow) !important; /* ControlDarkDark */
+    color: var(--color-btntext) !important; /* ControlText */
+}
+input[type=checkbox]:disabled {
+    background-color: var(--color-3dface) !important; /* Control */
+    border-color: var(--color-graytext) !important; /* GrayText */
+    color: var(--color-graytext) !important; /* GrayText */
+}
+input[type=checkbox]:disabled + div {
+    background-color: var(--color-3dface) !important; /* Control */
+    border-color: var(--color-3dshadow) !important; /* ControlDarkDark */
+    color: var(--color-graytext) !important; /* GrayText */
+}
+input[type=checkbox]:disabled + div:active {
+    background-color: var(--color-3dface) !important; /* Control */
+    border-color: var(--color-3dshadow) !important; /* ControlDarkDark */
+    color: var(--color-graytext) !important; /* GrayText */
+}
+input[type=checkbox]:disabled + div .checkbox-description {
+    color: var(--color-graytext) !important; /* GrayText */
+}
+input[type=checkbox]:focus.product-button-layout-checkbox {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-highlight); /* Highlight */
+}
+input[type=checkbox]:focus.component-checkbox {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-highlight); /* Highlight */
+}
+input[type=checkbox]:focus.opt-out-checkbox {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-hotlight); /* HotTrack */
+}
+input[type=checkbox]:focus.locale-checkbox {
+    background-color: var(--color-control); /* Control */
+    border-color: var(--color-highlight); /* Highlight */
+}
+input[type=checkbox]:focus.options-checkbox {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-highlight); /* Highlight */
+}
+input[type=checkbox]:hover.product-button-layout-checkbox {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-highlight); /* Highlight */
+}
+input[type=checkbox]:hover.component-checkbox {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-highlight); /* Highlight */
+}
+input[type=checkbox]:hover.opt-out-checkbox {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-hotlight); /* HotTrack */
+}
+input[type=checkbox]:hover.locale-checkbox {
+    background-color: var(--color-control); /* Control */
+    border-color: var(--color-highlight); /* Highlight */
+}
+input[type=checkbox]:hover.options-checkbox {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-highlight); /* Highlight */
+}
+input[type=checkbox] + div {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-3dshadow); /* ControlDarkDark */
+    color: var(--color-btntext); /* ControlText */
+}
+input[type=checkbox] + div .checkbox-description {
+    color: var(--color-btntext); /* ControlText */
+}
+input[type=checkbox] + div:active.workload-label {
+    background-color: var(--color-highlight) !important; /* Highlight */
+    border-color: var(--color-highlight) !important; /* Highlight */
+    color: var(--color-highlighttext) !important; /* HighlightText */
+}
+input[type=checkbox] + div:hover {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-hotlight); /* HotTrack */
+    color: var(--color-btntext); /* ControlText */
+}
+input[type=checkbox] + div:focus {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-hotlight); /* HotTrack */
+    color: var(--color-btntext); /* ControlText */
+}
+input[type=checkbox]:active + div.workload-label {
+    background-color: var(--color-highlight) !important; /* Highlight */
+    border-color: var(--color-highlight) !important; /* Highlight */
+    color: var(--color-highlighttext) !important; /* HighlightText */
+}
+input[type=checkbox]:checked + div {
+    background-color: var(--color-3dface); /* Control */
+    border-left-color: var(--color-highlight); /* Highlight */
+    color: var(--color-btntext); /* ControlText */
+}
+input[type=checkbox]:checked:disabled + div {
+    background-color: var(--color-3dface) !important; /* Control */
+    border-color: var(--color-highlight) !important; /* Highlight */
+    color: var(--color-graytext) !important; /* GrayText */
+}
+input[type=checkbox]:focus + div {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-btntext); /* ControlText */
+}
+input[type=checkbox]:hover + div {
+    background-color: var(--color-3dface); /* Control */
+    border-color: var(--color-highlight); /* Highlight */
+    color: var(--color-btntext); /* ControlText */
+}
+progress::-webkit-progress-bar {
+    background-color: var(--color-window); /* Window */
+    border-color: var(--color-windowtext); /* WindowText */
+}
+progress::-webkit-progress-value {
+    background-color: var(--color-windowtext); /* WindowText */
+}
+#tabpanel {
+    border-color: var(--color-windowtext); /* WindowText */
+}
+::-webkit-input-placeholder {
+    color: var(--color-graytext); /* GrayText */
+}
+:focus::-webkit-input-placeholder {
+    color: var(--color-highlighttext); /* HighlightText */
+}
+::-webkit-scrollbar {
+    background-color: var(--color-window); /* Window */
+    border-color: var(--color-windowtext); /* WindowText */
+}
+::-webkit-scrollbar-corner {
+    background-color: var(--color-window); /* Window */
+    border-color: var(--color-window); /* Window */
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-windowtext); /* WindowText */
+    border-color: var(--color-windowtext); /* WindowText */
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--color-windowtext) !important; /* WindowText */
+    border-color: var(--color-windowtext) !important; /* WindowText */
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-windowtext); /* WindowText */
+    border-color: var(--color-windowtext); /* WindowText */
+}
